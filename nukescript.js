@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // ==PhatDong==
+=======
+// ==UserScript==
+>>>>>>> 02e11e89982d55c00cac66061ec41903e4b4047e
 // @name /u/wchill Monster Minigame Auto-script w/ auto-click
 // @namespace https://github.com/wchill/steamSummerMinigame
 // @description A script that runs the Steam Monster Minigame for you.
@@ -1120,7 +1124,10 @@
         //disableAbility(ABILITIES.WORMHOLE);
       } else {
         enableAbility(ABILITIES.TACTICAL_NUKE);
+<<<<<<< HEAD
         enableAbility(ABILITIES.NAPALM);
+=======
+>>>>>>> 02e11e89982d55c00cac66061ec41903e4b4047e
       }
     }
   }
@@ -1389,9 +1396,13 @@
     }
     if (!wormholeInterval) {
       wormholeInterval = w.setInterval(function(){
+<<<<<<< HEAD
       	w.g_Minigame.m_CurrentScene.m_rgAbilityQueue.push({'ability': 10});
       	w.g_Minigame.m_CurrentScene.m_rgAbilityQueue.push({'ability': 11});
         w.g_Minigame.m_CurrentScene.m_rgAbilityQueue.push({'ability': 12}); //wormhole
+=======
+        w.g_Minigame.m_CurrentScene.m_rgAbilityQueue.push({'ability': 26}); //wormhole
+>>>>>>> 02e11e89982d55c00cac66061ec41903e4b4047e
         w.g_Minigame.m_CurrentScene.m_nLastTick = 0;
         w.g_Minigame.m_CurrentScene.Tick();
       }, 100);
